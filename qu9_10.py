@@ -11,10 +11,12 @@ def freq_words(file):
     with open(file, 'r') as re_file:
         lines = re_file.readlines()
         for line in lines:
+            # find all words
             words = re.compile('\w+', re.I)
             result = result + words.findall(line)
     for i in result:
         print(i)
+        # insert dictionary all words and count
         if i in dic_word:
             dic_word[i] += 1
         else:
