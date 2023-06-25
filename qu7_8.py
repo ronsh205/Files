@@ -1,4 +1,4 @@
-gitimport os
+import os
 import numpy as arr
 
 
