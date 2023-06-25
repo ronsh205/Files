@@ -2,4 +2,5 @@ ron shmukler
 hello word
 ron sccsus
 to appendingtel avivronrons
-kfar kishipe
+kfar kishiperon appending data  to file read 
+colors is red
